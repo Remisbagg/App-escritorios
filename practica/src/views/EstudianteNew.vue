@@ -58,7 +58,7 @@
           mostrarAlerta('Ingrese un apellido','warning','apellido');
         }else{
           var parametros = {nombre:this.nombre.trim(), apellido:this.apellido.trim(), foto:this.foto.trim() }
-          enviarSolicitud('POST',parametros,this.url,'Registro Excitante');
+          enviarSolicitud('POST',parametros,this.url,'Registro Excitoso');
         }
 
       },
